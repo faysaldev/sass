@@ -1,0 +1,136 @@
+/*Broser reset code*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: chocolate;
+  color: azure;
+}
+
+::-moz-selection {
+  background: lightcoral;
+  color: white;
+}
+
+::selection {
+  background: lightcoral;
+  color: white;
+}
+
+header, .hela {
+  background-color: #b33e3e;
+  color: white;
+}
+
+nav {
+  background: #000;
+  color: white;
+}
+
+nav ul {
+  list-style: none;
+  padding: 4px;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 10px;
+  margin: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  text-align: center;
+  -webkit-columns: gray;
+          columns: gray;
+}
+
+nav ul li a:hover {
+  background-color: red !important;
+  color: aqua !important;
+}
+
+footer p {
+  font-size: 30px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: underline;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.hela {
+  padding: 100px;
+  text-decoration: line-through;
+  text-align: center;
+  font-size: 30px;
+}
+
+.ifelse h3 {
+  font-size: 100px;
+}
+
+.ifelse h1 {
+  font-size: 40px;
+}
+
+[class*="col-"] {
+  float: left;
+}
+
+.col-1 {
+  width: 8.33%;
+}
+
+.col-2 {
+  width: 16.66%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.col-5 {
+  width: 41.66%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.33%;
+}
+
+.col-8 {
+  width: 66.66%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.33%;
+}
+
+.col-11 {
+  width: 91.66%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.row::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+/*# sourceMappingURL=style.css.map */
